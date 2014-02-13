@@ -1,0 +1,25 @@
+{
+  "name": "browser-check",
+  "version": "0.0.0",
+  "description": "Check if client browser matches rules defined with semver syntax",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nouman Saleem",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/NoumanSaleem/browser-support"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "browsers",
+    "ie8"
+  ],
+  "dependencies": {
+    "semver": "~2.2.1",
+    "useragent": "~2.0.7"
+  }
+}
